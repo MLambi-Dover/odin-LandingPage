@@ -7,9 +7,9 @@ body {
 }
 
 .header {
+    height: 120px;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
+    justify-content: center;
     background-color: #1f2937;
     padding: 16px;
 }
@@ -17,9 +17,14 @@ body {
 .left .right {
     display: flex;
     align-items: center;
-    gap: 16px;
 }
-
+.left {
+    width: 400px;
+    height: 24px;
+}
+.right {
+    width: 400px;
+}
 .left li {
     float: left;
 }
@@ -32,10 +37,8 @@ body {
     size: 24px;
     font-weight: 900;
     color: #f9faf8;
-    display:flex;
-    align-items: center;
     background-color: #1f2937;
-    margin-left: 48px;
+    width: 400px;
 }
 
 ul {
@@ -44,7 +47,7 @@ ul {
     padding: 0;
     gap: 16px;
     list-style-type: none;
-    margin-right: 48px;
+    width: 400px;
     size: 18px;
     color: #e5e7eb;
 }
@@ -88,4 +91,9 @@ a {
 
 button {
     padding: 8px 16px;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #e5e7eb;
+    font-weight: bold;
 }
+
